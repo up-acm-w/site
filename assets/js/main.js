@@ -239,7 +239,7 @@ var x = setInterval(function () {
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
   // Output the result in an element with id="countdown"
-  document.getElementById("countdown-demo").innerHTML = days + "d " + hours + "h "
+  document.getElementById("countdown-demo").innerHTML ="Inauguración UP ACM-W comienza en " + days + "d " + hours + "h "
     + minutes + "m " + seconds + "s ";
 
   // If the count down is over, write some text 

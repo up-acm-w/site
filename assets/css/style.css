@@ -5,12 +5,12 @@ body {
 }
 
 a {
-  color: #50d8af;
+  color: #00D3FC;
   transition: 0.5s;
 }
 
 a:hover, a:active, a:focus {
-  color: #51d8af;
+  color: #00D3FC;
   outline: none;
   text-decoration: none;
 }
@@ -31,7 +31,7 @@ h1, h2, h3, h4, h5, h6 {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #50d8af;
+  background: #00D3FC;
   color: #fff;
   padding: 6px 12px 9px 12px;
   font-size: 16px;
@@ -48,13 +48,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .back-to-top:focus {
-  background: #50d8af;
+  background: #00D3FC;
   color: #fff;
   outline: none;
 }
 
 .back-to-top:hover {
-  background: #0c2e8a;
+  background: #2D458A;
   color: #fff;
 }
 
@@ -74,11 +74,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #topbar .contact-info a:hover {
-  color: #50d8af;
+  color: #00D3FC;
 }
 
 #topbar .contact-info i {
-  color: #50d8af;
+  color: #00D3FC;
   padding: 4px;
 }
 
@@ -97,7 +97,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #topbar .social-links a:hover {
-  color: #50d8af;
+  color: #00D3FC;
 }
 
 #topbar .social-links a:first-child {
@@ -126,13 +126,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header #logo h1 a {
-  color: #0c2e8a;
+  color: #2D458A;
   line-height: 1;
   display: inline-block;
 }
 
 #header #logo h1 a span {
-  color: #50d8af;
+  color: #00D3FC;
 }
 
 #header #logo img {
@@ -180,14 +180,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #intro .intro-content h2 {
-  color: #0c2e8a;
+  color: #2D458A;
   margin-bottom: 30px;
   font-size: 64px;
   font-weight: 700;
 }
 
 #intro .intro-content h2 span {
-  color: #50d8af;
+  color: #00D3FC;
   text-decoration: underline;
 }
 
@@ -211,23 +211,23 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #intro .intro-content .btn-get-started {
-  background: #0c2e8a;
-  border: 2px solid #0c2e8a;
+  background: #2D458A;
+  border: 2px solid #2D458A;
 }
 
 #intro .intro-content .btn-get-started:hover {
   background: none;
-  color: #0c2e8a;
+  color: #2D458A;
 }
 
 #intro .intro-content .btn-projects {
-  background: #50d8af;
-  border: 2px solid #50d8af;
+  background: #00D3FC;
+  border: 2px solid #00D3FC;
 }
 
 #intro .intro-content .btn-projects:hover {
   background: none;
-  color: #50d8af;
+  color: #00D3FC;
 }
 
 #intro #intro-carousel {
@@ -340,7 +340,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu li:hover > a, .nav-menu .menu-active > a {
-  color: #50d8af;
+  color: #00D3FC;
 }
 
 .nav-menu > li {
@@ -368,7 +368,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu ul li:hover > a {
-  color: #50d8af;
+  color: #00D3FC;
 }
 
 .nav-menu ul ul {
@@ -455,11 +455,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #mobile-nav ul .menu-has-children i.fa-chevron-up {
-  color: #50d8af;
+  color: #00D3FC;
 }
 
 #mobile-nav ul .menu-item-active {
-  color: #50d8af;
+  color: #00D3FC;
 }
 
 #mobile-body-overly {
@@ -502,7 +502,7 @@ section {
 
 .section-header h2 {
   font-size: 32px;
-  color: #0c2e8a;
+  color: #2D458A;
   text-transform: uppercase;
   font-weight: 700;
   position: relative;
@@ -515,7 +515,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: #50d8af;
+  background: #00D3FC;
   bottom: 0;
   left: 0;
 }
@@ -604,7 +604,7 @@ section {
 }
 
 #about .content h2 {
-  color: #0c2e8a;
+  color: #2D458A;
   font-weight: 700;
   font-size: 36px;
   font-family: "Raleway", sans-serif;
@@ -629,7 +629,7 @@ section {
 #about .content i {
   font-size: 20px;
   padding-right: 4px;
-  color: #50d8af;
+  color: #00D3FC;
 }
 
 #about .content ul {
@@ -648,7 +648,7 @@ section {
 }
 
 #countdown .content h2 {
-  color: #0c2e8a;
+  color: #2D458A;
   font-weight: 700;
   font-size: 36px;
   font-family: "Raleway", sans-serif;
@@ -656,6 +656,7 @@ section {
 
 #countdown .content p {
   line-height: 26px;
+  text-align: center;
 }
 
 #countdown .content p:last-child {
@@ -665,7 +666,7 @@ section {
 #countdown .content i {
   font-size: 20px;
   padding-right: 4px;
-  color: #50d8af;
+  color: #00D3FC;
 }
 
 #countdown .content ul {
@@ -684,8 +685,8 @@ section {
 }
 
 #services .box {
-  padding: 40px;
-  margin-bottom: 40px;
+  padding: 20px;
+  margin-bottom: 20px;
   box-shadow: 10px 10px 15px rgba(73, 78, 92, 0.1);
   background: #fff;
   transition: 0.4s;
@@ -707,12 +708,12 @@ section {
   font-size: 64px;
   transition: 0.5s;
   line-height: 0;
-  margin-top: 34px;
+  margin-top: 25px;
 }
 
 #services .box .icon i:before {
-  background: #0c2e8a;
-  background: linear-gradient(45deg, #50d8af 0%, #a3ebd5 100%);
+  background: #2D458A;
+  background: linear-gradient(45deg, #00D3FC 0%, #2D458A 100%);
   background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -731,8 +732,8 @@ section {
 
 #services .box p {
   font-size: 14px;
-  margin-left: 100px;
-  margin-bottom: 0;
+  margin-left: 80px;
+  margin-bottom: 0px;
   line-height: 24px;
 }
 
@@ -783,7 +784,7 @@ section {
 }
 
 #clients .owl-dot.active {
-  background-color: #50d8af;
+  background-color: #00D3FC;
 }
 
 /* Our Portfolio Section
@@ -817,7 +818,7 @@ section {
 
 #portfolio #portfolio-flters li:hover, #portfolio #portfolio-flters li.filter-active {
   color: #fff;
-  background: #50d8af;
+  background: #00D3FC;
 }
 
 #portfolio #portfolio-flters li:last-child {
@@ -843,7 +844,7 @@ section {
   bottom: -50px;
   z-index: 3;
   transition: all ease-in-out 0.3s;
-  background: #50d8af;
+  background: #00D3FC;
   padding: 15px 20px;
 }
 
@@ -916,7 +917,7 @@ section {
 }
 
 .portfolio-details .portfolio-details-carousel .owl-dot.active {
-  background-color: #50d8af !important;
+  background-color: #00D3FC !important;
 }
 
 .portfolio-details .portfolio-info {
@@ -1048,13 +1049,13 @@ section {
 }
 
 #testimonials .owl-dot.active {
-  background-color: #50d8af;
+  background-color: #00D3FC;
 }
 
 /* Call To Action Section
 --------------------------------*/
 #call-to-action {
-  background: #081e5b;
+  background: #00D3FC;
   background-size: cover;
   padding: 40px 0;
 }
@@ -1092,8 +1093,8 @@ section {
 }
 
 #call-to-action .cta-btn:hover {
-  background: #50d8af;
-  border: 3px solid #50d8af;
+  background: #00D3FC;
+  border: 3px solid #00D3FC;
 }
 
 /* Our Team Section
@@ -1118,7 +1119,7 @@ section {
 }
 
 #team .member .details {
-  background: #50d8af;
+  background: #2D458A;
   color: #fff;
   padding: 15px;
   border-radius: 0 0 3px 3px;
@@ -1164,7 +1165,7 @@ section {
   font-size: 48px;
   display: inline-block;
   margin-bottom: 10px;
-  color: #50d8af;
+  color: #00D3FC;
 }
 
 #contact .contact-info address, #contact .contact-info p {
@@ -1185,7 +1186,7 @@ section {
 }
 
 #contact .contact-info a:hover {
-  color: #50d8af;
+  color: #00D3FC;
 }
 
 #contact .contact-address, #contact .contact-phone, #contact .contact-email {
@@ -1273,11 +1274,11 @@ section {
 }
 
 #contact .php-email-form input::focus, #contact .php-email-form textarea::focus {
-  background-color: #50d8af;
+  background-color: #00D3FC;
 }
 
 #contact .php-email-form button[type="submit"] {
-  background: #50d8af;
+  background: #00D3FC;
   border: 0;
   border-radius: 3px;
   padding: 10px 30px;
@@ -1329,5 +1330,5 @@ section {
 }
 
 #footer .credits a {
-  color: #0c2e8a;
+  color: #2D458A;
 }
