@@ -211,13 +211,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #intro .intro-content .btn-get-started {
-  background: #2D458A;
-  border: 2px solid #2D458A;
+  background: #346BB3;
+  border: 2px solid #346BB3;
 }
 
 #intro .intro-content .btn-get-started:hover {
   background: none;
-  color: #2D458A;
+  color: #346BB3;
 }
 
 #intro .intro-content .btn-projects {
@@ -1335,6 +1335,13 @@ section {
 
 /*  Logo Principal*/
 #logo-New{
-  margin-top: 130px;
-  padding: 200px;
+  margin-bottom: 0px;
+  padding-top: -100px;
+  padding-bottom: 500px;
+  padding-left: 300px;
+  padding-right: 300px;
+}
+
+#btn-Unete{
+  margin-top: -600px;
 }
