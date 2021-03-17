@@ -180,7 +180,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #intro .intro-content h2 {
-  color: #2D458A;
+  color: #346BB3;
   margin-bottom: 30px;
   font-size: 64px;
   font-weight: 700;
@@ -502,7 +502,7 @@ section {
 
 .section-header h2 {
   font-size: 32px;
-  color: #2D458A;
+  color: #346BB3;
   text-transform: uppercase;
   font-weight: 700;
   position: relative;
@@ -604,7 +604,7 @@ section {
 }
 
 #about .content h2 {
-  color: #2D458A;
+  color: #346BB3;
   font-weight: 700;
   font-size: 36px;
   font-family: "Raleway", sans-serif;
@@ -641,6 +641,10 @@ section {
   padding-bottom: 10px;
 }
 
+#about #video{
+  align-items: center;
+}
+
 /* Countdown Section
 --------------------------------*/
 #countdown {
@@ -648,7 +652,7 @@ section {
 }
 
 #countdown .content h2 {
-  color: #2D458A;
+  color: #346BB3;
   font-weight: 700;
   font-size: 36px;
   font-family: "Raleway", sans-serif;
@@ -713,7 +717,7 @@ section {
 
 #services .box .icon i:before {
   background: #2D458A;
-  background: linear-gradient(45deg, #00D3FC 0%, #2D458A 100%);
+  background: linear-gradient(45deg, #5BD3FB 0%, #346BB3 100%);
   background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -1119,7 +1123,7 @@ section {
 }
 
 #team .member .details {
-  background: #2D458A;
+  background: #2C0444;
   color: #fff;
   padding: 15px;
   border-radius: 0 0 3px 3px;
@@ -1344,4 +1348,38 @@ section {
 
 #btn-Unete{
   margin-top: -600px;
+}
+
+@media (max-width: 1050px) { 
+  #logo-New{
+    margin-bottom: 0px;
+    padding-top: -300px;
+    padding-bottom: 200px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  #btn-Unete{
+    margin-top: -300px;
+  }
+ }
+
+ @media (max-width: 576px) { 
+  #logo-New{
+    margin-bottom: 0px;
+    padding-top: -200px;
+    padding-bottom: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  #btn-Unete{
+    margin-top: -150px;
+  }
+ }
+
+
+/*  proyectos */
+#proyectos .card{
+  box-shadow: 20px 20px 30px rgba(73, 78, 92, 0.15);
 }
