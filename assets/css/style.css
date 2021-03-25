@@ -1341,13 +1341,13 @@ section {
 #logo-New{
   margin-bottom: 0px;
   padding-top: -100px;
-  padding-bottom: 500px;
-  padding-left: 300px;
-  padding-right: 300px;
+  padding-bottom: 550px;
+  padding-left: 350px;
+  padding-right: 350px;
 }
 
 #btn-Unete{
-  margin-top: -600px;
+  margin-top: -630px;
 }
 
 @media (max-width: 1050px) { 
@@ -1382,4 +1382,55 @@ section {
 /*  proyectos */
 #proyectos .card{
   box-shadow: 20px 20px 30px rgba(73, 78, 92, 0.15);
+}
+
+/*  botones eventos */
+
+.btn-eventos{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 26px;
+  border-radius: 3px;
+  transition: 0.5s;
+  margin: 10px;
+  background-color: #00D3FC;
+  color: white;
+  box-shadow: 5px 5px 5px rgba(73, 78, 92, 0.15);
+}
+
+.btn-eventos:hover {
+  color: white;
+  box-shadow: 10px 10px 10px rgba(73, 78, 92, 0.17);
+}
+
+.btn-get-started-bar{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 26px;
+  border-radius: 3px;
+  transition: 0.5s;
+  background-color: #00D3FC;
+  color: white;
+  box-shadow: 5px 5px 5px rgba(73, 78, 92, 0.10);
+}
+
+.btn-get-started-bar:hover{
+  color: white;
+  box-shadow: 5px 5px 5px rgba(73, 78, 92, 0.20);
+}
+
+.eventos-img{
+  transition: all .3s ease-in-out;
+}
+
+.eventos-img:hover{
+  box-shadow: 10px 10px 10px rgba(73, 78, 92, 0.25);
+  transform: scale(1.04)
+
 }
