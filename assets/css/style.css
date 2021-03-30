@@ -1391,11 +1391,20 @@ section {
  }
 
 @media (max-width: 991px) { 
-
+  #logo-New{
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  #btn-Unete{
+    margin-top: -30px;
+  }
  }
 
 @media (max-width: 1199px) { 
-
+  
  }
 
 
