@@ -79,19 +79,24 @@
 
     <div class="intro-content">
       <a href="index.html"><img class="img-fluid " id="logo-New" src="assets/img/logo-rec-transp.png" alt="ACM logo"></a>
-      <p>Capítulo estudiantil ACM-W de la Universidad Panamericana</p>
+      <!-- <p class="parra-intro ">Capítulo estudiantil ACM-W de la Universidad Panamericana</p> -->
       <div id="btn-Unete" >
         <a href="https://forms.gle/uNuNFHN7z4NBQ1vG8"  class="btn-get-started scrollto" >Únete a nosotras</a>
       </div>
     </div>
-    <div id="intro-carousel" class="owl-carousel" >
+    <div id= "intro-carousel"> 
+      <video id="videoIntro" autoplay muted loop src="assets/img/intro/Carrusel.mp4">  </video>
+    </div>
+    
+    <!-- <div id="intro-carousel" class="owl-carousel" >
+      
       <div class="item" style="background-image: url('assets/img/intro-carousel/1_blue.jpg');"></div>
       <div class="item" style="background-image: url('assets/img/intro-carousel/2_blue.jpg');"></div>
       <div class="item" style="background-image: url('assets/img/intro-carousel/3_blue.png');"></div>
       <div class="item" style="background-image: url('assets/img/intro-carousel/4_blue.jpg');"></div>
       <div class="item" style="background-image: url('assets/img/intro-carousel/5_blue.jpg');"></div>
       <div class="item" style="background-image: url('assets/img/intro-carousel/6_blue.png');"></div>
-    </div>
+    </div> -->
 
   </section><!-- End Intro Section -->
 
@@ -181,7 +186,10 @@
           <div class="col-lg-3">
             <div class="box wow fadeInRight">
               <div class="icon"><i class="fa fa-check" style="font-size: 3.5em;"></i></div>
-              <p><b>127 días como capítulo activo</b></p>
+              <!-- <p><b>127 días como capítulo activo</b></p> -->
+              <p>
+                <b id="count" class="count"> </b>
+              </p>
             </div>
           </div>
           <div class="col-lg-3">
@@ -1079,6 +1087,7 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script src="assets/js/clockScript.js"></script>
 
 </body>
 
