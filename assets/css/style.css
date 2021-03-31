@@ -1479,4 +1479,65 @@ section {
   transform: scale(1.04)
 
 }
-/*  días del capítulo */
+/*  hover overlay event cards */
+
+.card-img-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  visibility: none;
+  transition: .5s ease;
+  background-color: rgba(176, 178, 184, 0.2);
+  
+}
+.card:hover .card-img-overlay {
+  opacity: 1;
+}
+
+.card-title {
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+#OTROS .card-img-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  visibility: none;
+  transition: .5s ease;
+  background-color: rgba(120, 142, 209, 0.5);
+}
+#OTROS .footerEvents {
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+  position: absolute;
+  top: 63%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+#OTROS .card:hover .card-img-overlay {
+  opacity: 1;
+}

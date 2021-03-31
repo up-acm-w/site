@@ -23,13 +23,13 @@
   });
 
   // Intro background carousel
-  $("#intro-carousel").owlCarousel({
-    autoplay: true,
-    dots: false,
-    loop: true,
-    animateOut: 'fadeOut',
-    items: 1
-  });
+  // $("#intro-carousel").owlCarousel({
+  //   autoplay: true,
+  //   dots: false,
+  //   loop: true,
+  //   animateOut: 'fadeOut',
+  //   items: 1
+  // });
 
   // Initiate the wowjs animation library
   new WOW().init();
@@ -247,5 +247,4 @@ var x = setInterval(function () {
     clearInterval(x);
     document.getElementById("countdown-demo").innerHTML = "EXPIRED";
   }
-}, 1000);
-
+}, 1000)
