@@ -16,6 +16,15 @@
     return false;
   });
 
+  //Discord 
+  $(window).scroll(function() {
+    if ($(this).scrollTop() > 100) {
+      $('.discord-join').fadeIn('slow');
+    } else {
+      $('.discord-join').fadeOut('slow');
+    }
+  });
+
   // Stick the header at top on scroll
   $("#header").sticky({
     topSpacing: 0,
