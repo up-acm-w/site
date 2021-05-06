@@ -1433,8 +1433,6 @@ section {
   }
 }
 
- 
-
 
 /*  proyectos */
 #proyectos .card{
@@ -1568,4 +1566,43 @@ section {
 
 #OTROS .card:hover .card-img-overlay {
   opacity: 1;
+}
+
+/* carrusel*/
+.carousel-control-next{
+  justify-content: right;
+  color: black; 
+  padding-left: 0px;
+  margin-right: -190px;
+}
+.carousel-control-prev{
+  justify-content: left;
+  color: black; 
+  padding-right: -20px;
+  margin-left: -20px;
+}
+
+.carousel-control-next:hover, .carousel-control-prev:hover{
+  opacity: 50;
+  color: black;
+}
+
+.carousel-indicators li{
+  color: #346BB3; 
+  background-color: #346BB3;
+}
+.carousel-indicators {
+  position: absolute;
+  right: 0;
+  bottom: -30px;
+  left: 0;
+  z-index: 15;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding-left: 0;
+  margin-right: 15%;
+  margin-left: 15%;
+  list-style: none;
 }

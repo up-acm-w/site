@@ -248,12 +248,11 @@ var x = setInterval(function () {
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
   // Output the result in an element with id="countdown"
-  document.getElementById("countdown-demo").innerHTML ="Inauguración UP ACM-W comienza en " + days + "d " + hours + "h "
-    + minutes + "m " + seconds + "s ";
+  //document.getElementById("countdown-demo").innerHTML ="Inauguración UP ACM-W comienza en " + days + "d " + hours + "h "+ minutes + "m " + seconds + "s ";
 
   // If the count down is over, write some text 
-  if (distance < 0) {
-    clearInterval(x);
-    document.getElementById("countdown-demo").innerHTML = "EXPIRED";
-  }
+  // if (distance < 0) {
+  //   clearInterval(x);
+  //   document.getElementById("countdown-demo").innerHTML = "EXPIRED";
+  // }
 }, 1000)
