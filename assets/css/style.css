@@ -293,6 +293,21 @@ h1, h2, h3, h4, h5, h6 {
   height: 60vh;
 }
 
+#intro .intro-content img#award-img{
+  padding: 2rem;
+  margin-bottom:20px;
+  display:inline-block;
+}
+
+@media (min-width: 992px) {
+  #intro .intro-content img#award-img{
+    margin:0px;
+    padding:0;
+  }
+}
+
+
+
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -1112,7 +1127,7 @@ section {
   color: #fff;
 }
 
-@media (min-width: 769px) {
+@media (min-width: 992px) {
   #call-to-action .cta-btn-container {
     display: flex;
     align-items: center;
@@ -1377,19 +1392,26 @@ section {
 
 /*  Logo Principal*/
 #logo-New{
-  margin-bottom: 60px;
+  margin-bottom: 0px;
   padding-top: -300px;
-  padding-bottom: 350px;
+  padding-bottom: 25px;
   padding-left: 250px;
   padding-right: 350px;
 }
 
 #btn-Unete{
-  margin-top: -450px;
+  margin-top: 20px;
 }
 
-@media (max-width: 1199px) { 
-  
+@media (min-width: 1510px) {
+  #logo-New{
+    padding-bottom: 0px;
+    height:370px;
+  }
+
+  #btn-Unete{
+    margin-top: 20px;
+  }
 }
 
 
@@ -1420,6 +1442,7 @@ section {
     margin-top: -30px;
   }
 }
+
 @media (max-width: 640px) { 
   #logo-New{
     margin-bottom: 0px;
