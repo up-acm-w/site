@@ -1390,8 +1390,8 @@ section {
 
 /*  Logo Principal*/
 #logo-New{
-  margin-bottom: 0px;
-  padding: 0px;
+  margin-bottom: -50px;
+  padding: 350px;
   padding-bottom: 0px;
   padding-top: 0px;
 }
