@@ -1,0 +1,319 @@
+/* Required height of parents of the Half Page Carousel for proper displaying carousel itself */
+html,
+body,
+.view {
+  height: 100%; 
+}
+
+:root{
+    --morado: #2C0444;
+    --azulClaro: #5BD3FB;
+    --purple: #2F0543;
+    --lightPurple: #BB3DF5;
+    --pink:#A8054E; 
+    --darkPink: #700836;
+    --lightPink: #ED5FB4; 
+    --skyblue: #5BD3FB; 
+    --blue:  #023C50; 
+    --lightYellow: #FFD23F ; 
+    --yellow: #F5A700 ; 
+    --offBlack: #0a0a0a; 
+    --azure: #346BB3; 
+  
+  }
+
+.header-mem{
+    padding-top: 8rem;
+    padding-bottom: 4rem;
+    background-image: linear-gradient(0deg, var(--azulClaro)5%, var(--purple)75%);
+}
+
+/*Proximos Eventos*/
+.recent-events{
+    margin-top: 100px;
+    padding-bottom: 10px;
+}
+
+.middle{
+    position: relative;
+    top: 200px; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+.card-eventos{
+    cursor: pointer;
+    width: 270px;
+    height: 480px;
+}
+.front, .back{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    backface-visibility: hidden;
+    position: absolute;
+    transition: transform .4s linear;
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.2);
+}
+.front{
+    transform: perspective(600px) rotateY(0deg);
+}
+.back{
+    color: var(--purple);
+    transform: perspective(600px) rotateY(180deg);
+    background-color: white;
+}
+.back-content{
+    text-align: center;
+    width: 100%;
+    
+}
+
+.card-eventos:hover > .front {
+    transform: perspective(600px) rotateY(-180deg);
+}
+.card-eventos:hover > .back {
+    transform: perspective(600px) rotateY(0deg);
+}
+
+.btn-new-event{
+    border: 2px solid var(--yellow);
+    color: var(--yellow)
+}
+
+.btn-new-event:hover{
+    background-color: var(--yellow);
+    color: white; 
+}
+
+/* Carrusel for past Events*/
+.past-events{
+    margin-top: 0px;
+    height: 80vh;
+}
+
+.middle-past{
+    position: relative;
+    top: 270px; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+.card-eventos-past{
+    cursor: pointer;
+    width: 990px;
+    height: 540px;
+}
+.front-pstent, .back-pstent{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    backface-visibility: hidden;
+    position: absolute;
+    transition: .5s ease;
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.2);
+}
+.back-pstent{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background-color: #f1f1f1;
+}
+
+.back-pstent:hover{
+    opacity: 1;
+}
+
+/*  hover overlay event cards */
+
+.card-img-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    visibility: none;
+    transition: .5s ease;
+    background-color: rgba(38, 12, 63, 0.685);
+    align-items: end;
+  }
+
+.card:hover .card-img-overlay {
+    opacity: 1;
+}
+
+.text-event{
+    padding-top: 40%;
+    text-align: center;
+    font-weight: 600;
+    color: white;
+}
+
+.event-link{
+    color: white;
+}
+.event-link:hover{
+    color: var(--skyblue);
+}
+
+  /*Linea divisora de evenoto y grabación */
+.line{
+    width: 100%;
+    border-bottom: 1.8px solid white;
+}
+
+/* carrusel for past events*/
+#carouselExampleIndicators-events{
+    height: 75vh;
+    padding-bottom: 0%;
+}
+.carousel-control-next{
+    justify-content: right;
+    color: black; 
+    padding-left: 0px;
+    margin-right: -100px;
+}
+.carousel-control-prev{
+    justify-content: left;
+    color: black; 
+    padding-right: 0px;
+    margin-left: -100px;
+}
+.carousel-control-next:hover, .carousel-control-prev:hover{
+    opacity: 50;
+    color: black;
+}
+
+.carousel-indicators-events li{
+    color: #346BB3; 
+    background-color: #346BB3;
+}
+
+.carousel-indicators-events {
+    position: absolute;
+    right: 0;
+    bottom: -50px;
+    left: 0;
+    z-index: 15;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-left: 0;
+    list-style: none;
+    height: 5vh;
+}
+
+.carousel-indicators-events li:active{
+    color: black;
+}
+
+.carousel-inner-eventos{
+    height: vh;
+    overflow: hidden;
+}
+
+/* carrusel for past events Mobil*/
+#carouselExampleIndicators-events-mobil{
+    height: 100vh;
+    padding-bottom: 0%;
+}
+
+#carouselExampleIndicators-events-mobil{
+    height: 75vh;
+    padding-bottom: 0%;
+}
+.carousel-control-next{
+    justify-content: right;
+    color: black; 
+    padding-left: 0px;
+    margin-right: -100px;
+}
+.carousel-control-prev{
+    justify-content: left;
+    color: black; 
+    padding-right: 0px;
+    margin-left: -100px;
+}
+.carousel-control-next:hover, .carousel-control-prev:hover{
+    opacity: 50;
+    color: black;
+}
+
+.carousel-indicators-events li{
+    color: #346BB3; 
+    background-color: #346BB3;
+}
+
+.carousel-indicators-events {
+    position: absolute;
+    right: 0;
+    bottom: -50px;
+    left: 0;
+    z-index: 15;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-left: 0;
+    list-style: none;
+    height: 5vh;
+}
+
+.carousel-indicators-events li:active{
+    color: black;
+}
+
+.carousel-inner-eventos{
+    height: vh;
+    overflow: hidden;
+
+}
+
+@media (max-width: 950px) {
+    #eventos-web, #subscrive-web{
+      display: none;
+    }
+  }
+  
+  @media (min-width: 950px) {
+    #eventos-mobil, #subscrive-mobil{
+      display: none;
+    }
+  }
+
+/*Space between footer and call to action*/
+.divider-from-footer{
+    height: 20vh;
+}
+
+/*Call to Action*/
+.call-to-action-events{
+    background-image: linear-gradient(90deg, var(--azure)5%, var(--purple)75%);
+}
+
+.btn-subscribe{
+    border: 2px solid white;
+    background-color: none;
+    color: white;
+}
+
+.btn-subscribe:hover{
+    background-color: white;
+    color: black;
+}
+
+.btn-contacto-eventos{
+    border: 2px solid var(--azure);
+    background-color: none;
+    color: var(--azure);
+}
+
+.btn-contacto-eventos:hover{
+    border: 2px solid var(--azure);
+    background-color: var(--azure);
+    color: white;
+}

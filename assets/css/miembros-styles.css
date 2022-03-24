@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap');
+
+:root{
+    --lightBlue: #5FD0F8;
+    --darkBlue: #366BB5;
+    --purple: #2F0543;
+    --white : #FFFFFF;
+    --lightGreen: #00EEA1;
+    --turquoise: #00E0D6;
+    --fontSize: 14px;
+    --morado: #2C0444;
+    --azulClaro: #5BD3FB;
+    --purple: #2F0543;
+    --lightPurple: #BB3DF5;
+    --pink:#A8054E; 
+    --darkPink: #700836;
+    --lightPink: #ED5FB4; 
+    --skyblue: #5BD3FB; 
+    --blue:  #023C50; 
+    --lightYellow: #FFD23F ; 
+    --yellow: #F5A700 ; 
+    --offBlack: #0a0a0a; 
+    --azure: #346BB3; 
+}
+
+.header-mem{
+    padding-top: 8rem;
+    padding-bottom: 4rem;
+}
+
+.option-mem{
+    color: white;
+}
+
+.option-mem:hover{
+    color: white;
+    padding: 10px;
+    border-bottom:2px solid white;
+}
+
+/* Fix image background in all medias */
+
+/* Medium screen */
+@media(max-width:1070px){
+    .wrapper{
+        width: 750px;
+        padding: 1rem;
+        height: 730px;
+        background-image: url("../img/bg-pattern-desktop.svg");
+        background-repeat: no-repeat;
+        background-position: 300% 50%;
+        align-content: center;
+    }
+    .accordion__wrapper {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        align-content: center;
+    }
+
+}
+
+/* Small screen */
+@media(max-width:800px){
+    .wrapper{
+        width: 600px;
+        position: relative;
+        padding: 1rem;
+        height: 730px;
+        background-image: url("../img/bg-pattern-desktop.svg");
+        background-repeat: no-repeat;
+        background-position: 200% 40%;
+        align-content: center;
+    }
+    .accordion__wrapper {
+        margin: 0px 40px;
+        align-content: center;
+    }
+
+}
+
+/* Big mobile phone */
+@media(max-width:650px){
+
+    .wrapper{
+        width: 350px;
+        position: relative;
+        padding: 0.5rem;
+        height:100%;
+        margin: 20px 20px;
+        background-image: url("../img/bg-pattern-desktop.svg");
+        background-repeat: no-repeat;
+        background-position: 120% 40%;
+        
+    }
+    .accordion__wrapper {
+        margin: 10px 40px;
+        align-content: center;
+    }
+
+    
+}
+
+/* Small mobile phone */
+@media(max-width:350px){
+
+    .wrapper{
+        width: 270px;
+        position: relative;
+        padding: 0.5rem;
+        height:100%;
+        margin: 20px 0px;
+        background-image: url("../img/bg-pattern-desktop.svg");
+        background-repeat: no-repeat;
+        background-position: 115% 40%;
+        
+    }
+    .accordion__wrapper {
+        margin: 10px 10px;
+        align-content: center;
+    }
+    
+}
+
+
+
+/*  hover overlay member cards */
+
+.card-img-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    visibility: none;
+    transition: .5s ease;
+    background-color: rgba(176, 178, 184, 0.2);
+    align-items: end;
+}
+
+.card:hover .card-img-overlay {
+    opacity: 1;
+}
+
+.text-miembro{
+    margin: 0px;
+    padding-top: 70%;
+    text-align: end;
+}
+
+.text-miembro h6, .text-miembro p{
+    font-weight: 600;
+    color: white;
+}
+  /*Linea divisora de miembros */
+.line{
+    width: 100%;
+    border-bottom: 1.8px solid white;
+}
+
+.members-social{
+    background-color: white;
+    border: none;
+    width: 40px;
+    height: 40px;
+    padding: 8px 10px;
+    font-size: 14px;
+    line-height: 1.33;
+    border-radius: 25px;
+}
+.icon-miembro{
+    padding-top: 75%;
+}
+.icon-miembro a i{
+    transform: none;
+    color: black; 
+}
+#divider-from-footer{
+    height: 30vh;
+}
+
+.div-secc{
+    height: 10vh;
+}
+
+/*heder members*/
+.miembros-header{
+    background-image: linear-gradient(0deg, var(--azulClaro)5%, var(--blue)75%);
+}
+
+.btn-unete-miembros{
+    border: 2px solid white;
+}
+
+.btn-unete-miembros:hover{
+    background-color: var(--lightYellow);
+    border-color: var(--lightYellow);
+}
+
+/*call to action memebers */
+.call-to-membes{
+    background-image: linear-gradient(0deg, var(--blue)5%, var(--lightBlue)75%);
+}
+.btn-subs-miembros{
+    border: 2px solid white;
+}
+
+.btn-subs-miembros:hover{
+    border: 2px solid white;
+    background-color: white;
+}
+.btn-contacto-miembros{
+    border: 2px solid var(--lightYellow);
+    color: var(--lightYellow);
+}
+.btn-contacto-miembros:hover{
+    border: 2px solid var(--lightYellow);
+    background-color: var(--lightYellow);
+}
